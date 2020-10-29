@@ -13,7 +13,11 @@ The classification goal is to predict the likelihood of a customer subscribing t
 * Numpy
 * Matplotlib/Seaborn
 * sklearn
+
 ## Exploratory Data Analysis
+
+![duration vs Target](Images/duration.png)  ![Housing vs Target](Images/housing.png)
+![pdays vs Target](Images/pdays.png)
 
 
 ### Feature Importance
@@ -23,6 +27,10 @@ The Top 3 features that influence the prediction of the Target Variable (The cus
 * pdays
 * Housing_yes
 
+![Confusion Matrix](Images/Conf.png)
 
 ### Business Understanding and Inference:
+
+![Classifier_df](Images/Classifier.PNG)
+
 Random Forest Classifier is the best model in this scenario as it has high Recall (False Negative is lowest among all the models), high Accuracy and high f1 score
